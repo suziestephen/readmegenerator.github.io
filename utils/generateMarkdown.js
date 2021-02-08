@@ -1,11 +1,5 @@
 //License Badge 
-function renderLicenseBadge(license) {
-	console.log("renderLicenseBadge", license);
-	if(license !== 'None') {
-		return `![License](https://img.shields.io/badge/License-${license}-blue.svg)`;
-	}
-	
-}
+function renderLicenseBadge(license) {}
 
 //License Link
 function renderLicenseLink(license) {}
@@ -19,19 +13,16 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  ${data.badge}
-
-
-
   # Description
   ${data.description}
 
-
+  # Screenshot
+  ![user image](${data.screenshot})
 
   # Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Features] (#features)
+  * [Badges] (#badges)
   * [Tests](#tests)
   * [License](#license)
   * [Contributions](#contributions)
@@ -43,8 +34,8 @@ function generateMarkdown(data) {
   ${data.installation}
   # Usage
   ${data.usage}
-  # Screenshot
-  ${data.screenshot}
+  # Badges
+  ${data.badge}
   # Tests
   ${data.tests}
   # License
@@ -55,15 +46,13 @@ function generateMarkdown(data) {
 
   # Repository
   ${data.repository}
-  # Deployed Link
-  ${data.githublink}
   
 
   # Questions
   ${data.questions}
   Got questions or feedback? You can contact me on:
-    - [Github](https://github.com/${data.username})
-    - [Email](mailto:${data.email})
+    [At my GitHub](https://github.com/${data.username})
+    [Via Email] (mailto:${data.email})
 
 `;
 }
