@@ -1,3 +1,20 @@
+//License Badge 
+function renderLicenseBadge(license) {
+	console.log("renderLicenseBadge", license);
+	if(license !== 'None') {
+		return `![License](https://img.shields.io/badge/License-${license}-blue.svg)`;
+	}
+	
+}
+
+//License Link
+function renderLicenseLink(license) {}
+
+
+//License Section
+function renderLicenseSection(license) {}
+
+//Generate Markdown
 
 function generateMarkdown(data) {
   return `# ${data.title}
@@ -9,7 +26,6 @@ function generateMarkdown(data) {
   # Description
   ${data.description}
 
-  [See deployed application.](${data.deployedLink})
 
 
   # Table of Contents
@@ -27,8 +43,8 @@ function generateMarkdown(data) {
   ${data.installation}
   # Usage
   ${data.usage}
-  # Features
-  ${data.features}
+  # Screenshot
+  ${data.screenshot}
   # Tests
   ${data.tests}
   # License

@@ -1,13 +1,12 @@
-# Readme Generator
+# t
 
-  none
+  t
 
 
 
   # Description
-  Creates a professional ReadMe file for Github users to communicate project requirements and features to other users
+  t
 
-  [See deployed application.](https://suziestephen.github.io/readmegenerator.github.io/)
 
 
   # Table of Contents
@@ -22,21 +21,21 @@
 
   
   # Installation
-  testing
+  t
   # Usage
-  Use to create a professional ReadMe file
-  # Features
-  Generates using node.js
+  t
+  # Screenshot
+  t
   # Tests
-  In Visual Studio using your Terminal
+  t
   # License
-  MIT
+  Apache
   # Contributions
-  Use the links
+  t
 
 
   # Repository
-  undefined
+  t
   # Deployed Link
   undefined
   
@@ -44,6 +43,6 @@
   # Questions
   undefined
   Got questions or feedback? You can contact me on:
-    - [Github](https://github.com/suziestephen)
-    - [Email](mailto:suzietstephen@gmail.com)
+    - [Github](https://github.com/t)
+    - [Email](mailto:t)
 
