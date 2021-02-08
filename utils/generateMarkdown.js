@@ -22,7 +22,7 @@ function generateMarkdown(data) {
   # Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Badges] (#badges)
+  * [Badges](#badges)
   * [Tests](#tests)
   * [License](#license)
   * [Contributions](#contributions)
@@ -49,10 +49,9 @@ function generateMarkdown(data) {
   
 
   # Questions
-  ${data.questions}
-  Got questions or feedback? You can contact me on:
+  Contact me for questions or comments below:
     [At my GitHub](https://github.com/${data.username})
-    [Via Email] (mailto:${data.email})
+    [Via Email](mailto:${data.email})
 
 `;
 }
