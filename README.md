@@ -4,12 +4,12 @@
   Professional ReadMe Generator
 
   # Screenshot
-  ![user image](  ![user image](${data.screenshot}))
+  ![user image](https://media.giphy.com/media/qQ5BSf5R6XXyQSOe50/giphy.gif)
 
   # Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Badges] (#badges)
+  * [Badges](#badges)
   * [Tests](#tests)
   * [License](#license)
   * [Contributions](#contributions)
@@ -18,13 +18,13 @@
 
   
   # Installation
-  node.js https://nodejs.org/en/download/
+  node.js
   # Usage
   Using your terminal in Visual Studio you can run this to generate a README
   # Badges
-  https://shields.io/[![Website shields.io](https://img.shields.io/badge/success-success-pink)](http://shields.io/)
+  [![Website shields.io](https://img.shields.io/badge/success-success-pink)](http://shields.io/)
   # Tests
-  With your terminal
+  Using Terminal
   # License
   None
   # Contributions
@@ -36,8 +36,7 @@
   
 
   # Questions
-  undefined
-  Got questions or feedback? You can contact me on:
+  Contact me for questions or comments below:
     [At my GitHub](https://github.com/suziestephen)
-    [Via Email] (mailto:suzietstephen@gmail.com)
+    [Via Email](mailto:suzietstephen@gmail.com)
 
