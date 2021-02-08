@@ -93,7 +93,7 @@ const questions = [
                 .prompt (questions)
                     .then((data) =>{
                         const readMeFile = generateMarkdown(data);
-                        writeToFile('README.md', readMeFile);
+                        writeToFile('./readme', readMeFile);
                     });
         }
 
